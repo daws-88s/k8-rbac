@@ -6,5 +6,5 @@ metadata:
 spec:
   serviceAccountName: roboshop-secret-reader
   containers:
-  - name: amazon/aws-cli
-    image: aws-cli
+  - name: aws-cli
+    image: amazon/aws-cli
